@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.btn {
+    @apply bg-purple-600 px-5 py-3 m-5 hover:bg-purple-900 hover:text-white rounded-full hover:transition-colors;
+}
